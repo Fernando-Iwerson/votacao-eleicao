@@ -1,5 +1,3 @@
-const prompt = require('prompt-sync')();
-
 var candidato_X,candidato_Y,candidato_Z,branco,nulo,encerrarVotacao;
 
 candidato_X = 0;
