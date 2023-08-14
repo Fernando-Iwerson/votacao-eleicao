@@ -50,7 +50,7 @@ while(true){
 let vencedor = "";
 let maiorVotos = Math.max(candidato_X,candidato_Y,candidato_Z,nulo);
 
-if(candidato_X == candidato_Y && candidato_X == candidato_Z && candidato_Y == candidato_Z ){
+if(candidato_X == candidato_Y || candidato_X == candidato_Z || candidato_Y == candidato_Z ){
     vencedor = "Empate"
 }else if(maiorVotos === candidato_X){
     vencedor = "candidato X";
