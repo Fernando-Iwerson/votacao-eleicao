@@ -51,11 +51,11 @@ let vencedor = "";
 let maiorVotos = Math.max(candidato_X,candidato_Y,candidato_Z,nulo);
 
 if(maiorVotos === candidato_X){
-    vencedor = "candidado X";
+    vencedor = "candidato X";
 }else if(maiorVotos === candidato_Y){
-    vencedor = "candidado Y";
+    vencedor = "candidato Y";
 }else if(maiorVotos === candidato_Z){
-    vencedor = "candidado Z";
+    vencedor = "candidato Z";
 }else{
     vencedor = "nenhum vencedor, tem mais votos nulos"
 }
